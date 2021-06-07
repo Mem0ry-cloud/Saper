@@ -1,0 +1,40 @@
+﻿<Window x:Class="Saper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sap"
+        mc:Ignorable="d"
+        Title="Sapyor.0,00001" Height="440" Width="400" Background="LightGray">
+    <Grid Name ="gridMain" Margin="10,10,10,10" Background="Gray">
+        <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Сапёр" Grid.Column="0" Grid.ColumnSpan="2" Background="LightGray" Margin="1"/>
+        <TextBlock  Grid.Column="2" Grid.ColumnSpan="3" Name="Bombs" Background="LightGray" Margin="1"/>
+        <TextBlock  Grid.Column="5" Grid.ColumnSpan="3" Name="Poles" Background="LightGray" Margin="1"/>
+        <Button  Grid.Column="8" Grid.ColumnSpan="2" Content="Заново"  Click="Button_Click" Background="LightGray" Margin="1"/>
+    </Grid>
+</Window>
